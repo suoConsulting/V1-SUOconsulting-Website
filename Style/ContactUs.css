@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.mp-nav-container {
+    background: #000;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+    width: 100%;
+    height: 10vh;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .mp-nav-container-logo-container {
+    height: 53px;
+    width: 20%;
+    /* border: 2px solid white; */
+  }
+ 
+  .mp-nav-container-logo-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+ 
+  .mp-nav-container-navItem-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40px;
+    /* border: 2px solid white; */
+  }
+ 
+  .mp-nav-container-navItem-container>a {
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+  }
+ 
+  .mp-nav-container_Utility-Icons {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 100px;
+    margin: 7px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+  }
+ 
+  .mp-nav-container_Utility-Icons>i {
+ 
+    margin: 3px;
+    color: white;
+ 
+ 
+  }
+ 
+ 
+
+.hedaer{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid white;
+    background-color: rgb(108, 101, 101);
+}
+
+.hedaingBorder{
+    width: 30%;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    top: 130px;
+    left: 35%;
+    background-color: white;
+    color: rgb(108, 101, 101);
+    text-align: center; 
+}
+
+.BasicInformation{
+    width: 80%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    top: -69px;
+    left: 10%;
+    background-color: white;
+    color: rgb(108, 101, 101);
+    text-align: center;
+}
+
+.form-Container{
+    width: 50%;
+    height: fit-content;
+    position: relative;
+    left: 25%;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 50px;
+}
+.s1Border{
+    width:100%;
+    padding: 10%;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: inline-block;
+}
+  label, input, button {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .input{
+    width: 100%;
+    
+  }
+    

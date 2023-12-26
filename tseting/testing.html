@@ -1,0 +1,35 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/tseting/testing.css">
+</head>
+<body>
+  
+</body>
+</html>
+<body>
+  <div class="imgScoler">
+    <div id="expand"></div>
+  </div>
+
+  <script>
+    function changeWidth() {
+      var scroll = (window.pageYOffset /5);
+      var width = scroll;
+      var width = Math.min(100 - scroll);
+
+      document.getElementById('expand').style.width = width + '%';
+    }
+
+    window.addEventListener('scroll', function(){
+      requestAnimationFrame(changeWidth);
+    })
+  </script>
+</body>

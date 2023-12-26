@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+}
+.termAndPolicy{
+    width: 80%;
+    height: fit-content;
+    border: 1px solid white;
+    position: relative;
+    left:10%;
+}

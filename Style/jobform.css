@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+.form-Container{
+    width: 50%;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-left: 25%;
+    padding: 50px;
+}
